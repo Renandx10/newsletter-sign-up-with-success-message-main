@@ -1,0 +1,164 @@
+@charset "UTF-8" ;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(234, 29%, 20%);
+   
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: 30px;
+    width: 800px;
+}
+
+.sessao01 {
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.sub-titulo {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding-bottom:5px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+#resultado {
+    font-size: 12px;
+    align-items: flex-end;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+form label {
+    font-size: 15px;
+}
+
+form input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px rgb(189, 186, 186);
+    padding-left: 5px;
+}
+
+.botao-confirma {
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(4, 98%, 63%);
+    color: white;
+}
+
+.botao-confirma:hover {
+    background-color:hsl(4, 76%, 49%) ;
+}
+
+.sessao02 img {
+    width: 400px;
+    padding: 30px;
+}
+
+footer {
+ font-size: 11px; 
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(4, 98%, 63%); 
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.card img{
+    width: 40px;
+    margin: 20px;
+}
+
+.card h1 {
+    padding-left: 20px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: hsl(234, 29%, 20%);
+}
+
+.card p {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    color: hsl(234, 29%, 20%);
+    line-height: 20px;
+}
+
+.card button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+}
+
+.card button:hover {
+    background-color: hsl(234, 38%, 30%);
+}
