@@ -113,6 +113,9 @@ footer {
     text-decoration: underline;
 }
 
+#sucesso {
+    display: none;
+}
 
 .card {
     display: flex;
@@ -124,7 +127,6 @@ footer {
     margin: 30px;
     padding: 10px;
     border-radius: 20px;
-    
 }
 
 .card img{
