@@ -31,8 +31,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    justify-content:center ;
     background-color: white;
     border-radius: 30px;
     margin: 30px;
@@ -110,6 +108,10 @@ form input {
     padding: 30px;
 }
 
+.imagem-pequena {
+    display: none;
+}
+
 footer {
  font-size: 11px; 
     text-align: center;
@@ -174,4 +176,48 @@ footer {
 
 .card button:hover {
     background-color: hsl(234, 38%, 30%);
+}
+
+@media (max-width:375px) {
+    
+    body {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #conteudo {
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        width: 00px;
+    }
+
+    .imagem-grande {
+        display: none;
+    }
+
+    .imagem-pequena {
+        display:flex;
+    }
+
+    .imagem-pequena img {
+        width: 100px;
+    }
+
+    footer {
+        color: black;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
 }
