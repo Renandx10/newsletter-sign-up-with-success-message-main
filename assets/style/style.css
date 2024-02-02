@@ -25,6 +25,15 @@ main {
     background-color: white;
     border-radius: 30px;
     margin: 30px;
+}
+
+#conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: 30px;
     width: 800px;
 }
 
